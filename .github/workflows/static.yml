@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клуб настольных игр колледжа IThub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0e6ff;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        #branding {
+            background: #4b0082;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+        #branding h1 {
+            margin: 0;
+        }
+        .highlight {
+            color: #9370db;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            background: #8a2be2;
+            color: #9370db;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #9400d3;
+        }
+        .hero-image {
+            background: #d8bfd8;
+            padding: 50px;
+            text-align: center;
+            color: #4b0082;
+        }
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .schedule, .reward-system {
+            background: #e6e6fa;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="branding">
+        <div class="container">
+            <h1>Клуб настольных игр<span class="highlight"> колледжа IThub</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="http://domsites.ru/">Главная</a></li>
+                    <li><a href="http://domsites.ru/rpg-page">НРИ</a></li>
+                    <li><a href="http://domsites.ru/ccg-page">ККИ</a></li>
+                    <li><a href="http://domsites.ru/anticafe-page">Антикафе</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="hero-image">
+        
+            <img src="https://optim.tildacdn.com/tild3366-3030-4363-a163-643461666533/-/format/webp/photo_2024-11-04_02-.jpg" alt="Фото клуба" />
+        </div>
+
+        <h2>Добро пожаловать в наш клуб настольных игр!</h2>
+
+        <p>Дорогие студенты! Приглашаем вас присоединиться к клубу настольных игр кафедры программирования и управления ИТ-продуктом.</p>
+
+        <p>Если вы любите настольные игры, хотите найти единомышленников или просто весело провести время - это место для вас!</p>
+
+        <div class="schedule">
+            <h2>Расписание встреч</h2>
+            <ul>
+                <li>Понедельник, 16:40 - Подземелье от Томаса Денмарка</li>
+                <li>Вторник, 16:40 - Настольно-ролевые игры (НРИ)</li>
+                <li>Среда, 16:40 - Коллекционные карточные игры (ККИ): Берсерк</li>
+                <li>Четверг, 16:40 - Коллекционные карточные игры (ККИ): Magic the Gathering</li>
+                <li>Пятница, 16:40 - Антикафе</li>
+            </ul>
+        </div>
+
+        <p>Узнайте больше о наших форматах игр:</p>
+
+        <a href="http://domsites.ru/rpg-page" class="btn">Настольно-ролевые игры</a>
+        <a href="http://domsites.ru/ccg-page" class="btn">Коллекционные карточные игры</a>
+        <a href="http://domsites.ru/anticafe-page" class="btn">Антикафе</a>
+
+        <p>Готовы присоединиться? Зарегистрируйтесь прямо сейчас!</p>
+
+        <a href="http://domsites.ru/members/signup" class="btn btn-register"><i class="fas fa-user-plus"></i> Зарегистрироваться</a>
+
+        <div class="reward-system">
+            <h2>Система наград клуба настольных игр</h2>
+
+            <h3>Основные принципы</h3>
+            <ul>
+                <li>Каждый игрок начинает с 1000 рейтинговых очков.</li>
+                <li>После каждой игры очки пересчитываются по системе Эло.</li>
+                <li>Максимальное изменение за игру: ±50 очков.</li>
+                <li>Минимальный рейтинг: 800 очков.</li>
+            </ul>
+
+            <h3>Уровни мастерства</h3>
+            <ol>
+                <li>Новичок (800-999 очков) - 0,1 балла</li>
+                <li>Начинающий (1000-1199 очков) - 0,25 балла</li>
+                <li>Любитель (1200-1399 очков) - 0,5 балла</li>
+                <li>Знаток (1400-1599 очков) - 1 балл</li>
+                <li>Мастер (1600-1799 очков) - 1,5 балла</li>
+                <li>Гроссмейстер (1800+ очков) - 2 балла</li>
+            </ol>
+            <p>Если участник клуба не ходит на турниры больше 14 дней, любой уровень сбрасывается до «начинающий».</p>
+
+            <h3>Специальные награды</h3>
+            <ul>
+                <li>"Восходящая звезда" (наибольший прирост рейтинга за месяц): 2 балла</li>
+                <li>"Чемпион клуба" (победитель финального турнира семестра): 5 баллов</li>
+                <li>"Comeback игрок" (поднялся с уровня "Новичок" до "Любитель" или выше за месяц): 1 балл</li>
+                <li>"Дружбанометр зашкалил" (привёл нового игрока в клуб): 1 балл
+                    <ul>
+                        <li>Условия: приглашающий игрок должен участвовать в турнирах не менее 2 недель и достигнуть уровня "Любитель" до и после приглашения</li>
+                        <li>Новый игрок должен активно участвовать в турнирах не менее 2 недель и также дойти до уровня "Любитель"</li>
+                        <li>Награда выдается после выполнения всех условий</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>Ограничения</h3>
+            <ul>
+                <li>Максимум 30 баллов к зачету за семестр через систему наград клуба</li>
+                <li>Баллы не переносятся на следующий семестр</li>
+            </ul>
+
+            <h3>Система поддержки новых игроков</h3>
+            <ul>
+                <li>Новые игроки получают "защиту от падения" на первые 10 игр: их рейтинг не может упасть ниже 900 очков.</li>
+                <li>Ежемесячный "Турнир новичков" для игроков с рейтингом ниже 1100 очков. Победитель получает дополнительные 100 рейтинговых очков и 1 балл.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
